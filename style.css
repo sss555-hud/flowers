@@ -1,8 +1,10 @@
 
 .footer {
+    width: 2450.53px;
     background-color: #333;
     color: #fff;
     padding: 20px 0;
+    margin: 0 auto;
     font-family: Arial, sans-serif;
 }
 
@@ -15,7 +17,7 @@
 }
 
 .footer-section {
-    flex: 1;
+    flex: 1;     
     min-width: 200px;
     margin: 10px;
 }
@@ -68,3 +70,164 @@
     margin-left: 450px;
     margin-top: 20px;
 }
+/* ----- */
+  .section7 {
+    max-width: 1420px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 120px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+font-family: Museo Sans Cyrl;
+font-size: 48px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center;
+  }
+  
+  .payment-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    align-items: baseline;
+  }
+.product-card {
+    width: 260px;
+  }
+  .card-top {
+    position: relative;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .top-label {
+    display: flex;
+flex-direction: row;
+align-items: center;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 200px;
+    right: 10px;
+    background: rgba(157, 117, 140, 0.39);
+    color: rgb(149, 109, 132);
+font-family: Euclid Circular B;
+font-size: 16px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: left;
+    padding: 3px 6px;
+    border-radius: 50%;
+  }
+  .favorite-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .card-content {
+    padding: 15px;
+  }
+  
+  .rating {
+    display: flex;
+    color: #FFD700;
+    font-size: 14px;
+  }
+  
+  .product-title {
+    display: flex;
+    color: rgb(51, 51, 51);
+font-family: Museo Sans Cyrl;
+font-size: 18px;
+font-weight: 300;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: left;
+  }
+  
+  .price {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -30px;
+    color: rgb(149, 109, 132);
+font-family: Museo Sans Cyrl;
+font-size: 18px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: left;
+  }
+
+  .order-button {
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-family: Museo Sans Cyrl;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    background: rgb(149, 109, 132);
+  }
+  
+  .quick-order {
+    text-decoration: none;
+    display: block;
+    margin-top: 5px;
+    color: rgb(130, 130, 130);
+font-family: Euclid Circular B;
+font-size: 16px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center;
+text-decoration-line: underline;
+  }
+  
+  .quick-order:hover {
+    text-decoration: underline;
+  }
+  .section9{
+    width: 1420px;
+  margin: 0 auto;
+  }
+  .section9 img {
+    width: 100%;
+    height: 508px;
+  }
+  .section8 {
+    display: flex;
+    width: 1420px;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+  }
+  h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Museo Sans Cyrl;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0%;
+  }
+  .forum1, .forum2, .forum3 {
+    width: 460px;
+    height: 513px;
+  } 
+  .forum1 img, .forum2 img, .forum3 img {
+    width: 100%;
+    height: 100%;
+  }
