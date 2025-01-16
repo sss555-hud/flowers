@@ -45,6 +45,7 @@ body {
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 20px;
+    width: 1420px;
     margin: 0 auto;
   }
   
@@ -169,6 +170,24 @@ text-align: left;
 position:absolute ;
 }
 
+
+  .top{
+    width: 56px;
+height: 56px;
+background: rgba(157, 117, 140, 0.39);
+color: rgb(149, 109, 132);
+font-family: Euclid Circular B;
+font-size: 16px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: right;
+position: absolute;
+border-radius: 50%;
+top: 100px;
+left: 100px;
+  }
+
 .top{
   width: 56px;
   height: 56px;
@@ -182,6 +201,7 @@ position:absolute ;
   text-align: left;
   position: absolute;
 }
+
 
 .product h4{
   padding: 3px 6px;
@@ -217,6 +237,20 @@ position:absolute ;
   
   .product h5{
     width: 79px;
+
+height: 27px;
+color: rgb(189, 189, 189);
+font-family: Museo Sans Cyrl;
+font-size: 18px;
+font-weight: 300;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: right;
+text-decoration-line: line-through;
+  }
+
+ 
+
     height: 27px;
     color: rgb(189, 189, 189);
     font-family: Museo Sans Cyrl;
@@ -228,6 +262,7 @@ position:absolute ;
     text-decoration-line: line-through;
   }
   
+
   .price {
     display: flex;
     justify-content: flex-end;

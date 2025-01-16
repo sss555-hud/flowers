@@ -92,7 +92,7 @@ section.innerHTML = product.map((item)=>{
                         <img src="./svg/stars.svg" alt="">
                     </div>
                     <div class="des">
-                        <h4>${item.h4}</h4>
+                        <h4>${item.title}</h4>
                         <h5>${item.h5}</h5>
                         <h6>${item.h6}</h6>
                     </div>
