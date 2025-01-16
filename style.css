@@ -6,46 +6,11 @@ body {
     box-sizing: border-box;
   }
   
-  header{
-    width: 1920px;
-    height: 198.16px;
-    border: 1px solid #333333;
-    
-}
-
-.header1{
-    width: 1920px;
-    height: 50px;
-    background-color: #333333;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 70px;
-}
-
-.header1 h3{
-    font-family:Montserrat;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 18px;
-    text-align: right;
-    color: #FFFFFF;
-
-
-}
-.header1 img{
-    width: 16px;
-    height: 16px;
-}
-
-
   .wrap-3 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 20px;
-    width: 1420px;
     margin: 0 auto;
   }
   
@@ -170,24 +135,6 @@ text-align: left;
 position:absolute ;
 }
 
-
-  .top{
-    width: 56px;
-height: 56px;
-background: rgba(157, 117, 140, 0.39);
-color: rgb(149, 109, 132);
-font-family: Euclid Circular B;
-font-size: 16px;
-font-weight: 400;
-line-height: 18px;
-letter-spacing: 0%;
-text-align: right;
-position: absolute;
-border-radius: 50%;
-top: 100px;
-left: 100px;
-  }
-
 .top{
   width: 56px;
   height: 56px;
@@ -201,7 +148,6 @@ left: 100px;
   text-align: left;
   position: absolute;
 }
-
 
 .product h4{
   padding: 3px 6px;
@@ -237,20 +183,6 @@ left: 100px;
   
   .product h5{
     width: 79px;
-
-height: 27px;
-color: rgb(189, 189, 189);
-font-family: Museo Sans Cyrl;
-font-size: 18px;
-font-weight: 300;
-line-height: 18px;
-letter-spacing: 0%;
-text-align: right;
-text-decoration-line: line-through;
-  }
-
- 
-
     height: 27px;
     color: rgb(189, 189, 189);
     font-family: Museo Sans Cyrl;
@@ -262,11 +194,11 @@ text-decoration-line: line-through;
     text-decoration-line: line-through;
   }
   
-
   .price {
     display: flex;
     justify-content: flex-end;
-    margin-top: -30px;
+    margin-top: -40px;
+    margin-left: 150px;
     
     color: rgb(149, 109, 132);
     font-family: Museo Sans Cyrl;
