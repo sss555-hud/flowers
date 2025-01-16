@@ -11,6 +11,7 @@ body {
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 20px;
+    margin: 0 auto;
   }
   
   .item {
@@ -55,6 +56,7 @@ body {
     gap: 20px;
     width: 1420px;
 height: 610px;
+margin: 0 auto;
   }
 
   .product img{
@@ -72,83 +74,13 @@ color: rgb(0, 0, 0);
 }
 
 
-.footer {
-    width: 2450.53px;
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    margin: 0 auto;
-    font-family: Arial, sans-serif;
-}
-
-.footer-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.footer-section {
-    flex: 1;     
-    min-width: 200px;
-    margin: 10px;
-}
-
-.footer-logo {
-    width: 100px;
-}
-
-.footer h4 {
-    margin-bottom: 10px;
-}
-
-.footer-list {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-list li {
-    margin-bottom: 5px;
-}
-
-.footer-list a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.footer-list a:hover {
-    color: #ff4081;
-}
-.payment-icons {
-    text-align: end;
-    margin-top: -60px;
-    margin-right: 500px;
-}
-
-.payment-icons img {
-    width: 50px;
-    height: 30px;
-    margin-right: 10px;
-}
-.payment-icons p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: -900px;
-    margin-top: 50px;
-}
-.email {
-    margin-left: 450px;
-    margin-top: 20px;
-}
 /* ----- */
-  .section7 {
+.section7 {
     max-width: 1420px;
     margin: 0 auto;
     padding: 20px;
     margin-bottom: 120px;
+    margin-top: 1000px;
   }
   
   h1 {
@@ -160,7 +92,7 @@ font-weight: 700;
 line-height: 18px;
 letter-spacing: 0%;
 text-align: center;
-  }
+}
   
   .payment-grid {
     display: grid;
@@ -168,7 +100,7 @@ text-align: center;
     gap: 10px;
     align-items: baseline;
   }
-.product-card {
+  .product-card {
     width: 260px;
   }
   .card-top {
@@ -185,13 +117,13 @@ text-align: center;
     display: flex;
 flex-direction: row;
 align-items: center;
-    width: 35px;
-    height: 35px;
-    position: absolute;
-    bottom: 200px;
-    right: 10px;
-    background: rgba(157, 117, 140, 0.39);
-    color: rgb(149, 109, 132);
+width: 35px;
+height: 35px;
+position: absolute;
+bottom: 200px;
+right: 10px;
+background: rgba(157, 117, 140, 0.39);
+color: rgb(149, 109, 132);
 
 font-family: Euclid Circular B;
 font-size: 16px;
@@ -201,24 +133,24 @@ letter-spacing: 0%;
 text-align: left;
 
 position:absolute ;
-  }
+}
 
-  .top{
-    width: 56px;
-height: 56px;
-background: rgba(157, 117, 140, 0.39);
-color: rgb(149, 109, 132);
-font-family: Euclid Circular B;
-font-size: 16px;
-font-weight: 400;
-line-height: 18px;
-letter-spacing: 0%;
-text-align: left;
-position: absolute;
-  }
+.top{
+  width: 56px;
+  height: 56px;
+  background: rgba(157, 117, 140, 0.39);
+  color: rgb(149, 109, 132);
+  font-family: Euclid Circular B;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: left;
+  position: absolute;
+}
 
-  .product h4{
-    padding: 3px 6px;
+.product h4{
+  padding: 3px 6px;
     border-radius: 50%;
   }
   .favorite-icon {
@@ -239,122 +171,113 @@ position: absolute;
   .product-title {
     display: flex;
     color: rgb(51, 51, 51);
-font-family: Museo Sans Cyrl;
-font-size: 18px;
-font-weight: 300;
-line-height: 18px;
-letter-spacing: 0%;
-text-align: left;
-width: 159px;
-height: 27px;
+    font-family: Museo Sans Cyrl;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 159px;
+    height: 27px;
   }
-
+  
   .product h5{
     width: 79px;
-height: 27px;
-color: rgb(189, 189, 189);
-font-family: Museo Sans Cyrl;
-font-size: 18px;
-font-weight: 300;
-line-height: 18px;
-letter-spacing: 0%;
-text-align: right;
-text-decoration-line: line-through;
-  }
-
-  .product h6{
+    height: 27px;
+    color: rgb(189, 189, 189);
+    font-family: Museo Sans Cyrl;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: right;
+    text-decoration-line: line-through;
   }
   
   .price {
     display: flex;
     justify-content: flex-end;
     margin-top: -30px;
-
+    
     color: rgb(149, 109, 132);
-font-family: Museo Sans Cyrl;
-font-size: 18px;
-font-weight: 700;
-line-height: 18px;
-letter-spacing: 0%;
-text-align: right;
-width: 79px;
-height: 27px;
-  }
-
-  .stars img{
-    width: 74px;
-height: 15px;
-  }
-
-  .product-bottom button{
-    width: 220px;
-height: 63px;
-border-radius: 7px;
-
-box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
-background: rgb(149, 109, 132);
-color: rgb(255, 255, 255);
-font-family: Museo Sans Cyrl;
-font-size: 16px;
-font-weight: 700;
-line-height: 18px;
-letter-spacing: 0%;
-text-align: center;
-  }
-
-  .product-bottom p{
-    width: 117px;
-height: 18px;
-color: rgb(130, 130, 130);
-text-align: left;
-  }
-
-  .order-button {
-    width: 150px;
-    height: 60px;
-    border-radius: 5px;
-    color: rgb(255, 255, 255);
     font-family: Museo Sans Cyrl;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 18px;
     letter-spacing: 0%;
-    text-align: center;
-    background: rgb(149, 109, 132);
+    text-align: right;
+    width: 79px;
+    height: 27px;
   }
   
-  .quick-order {
-    text-decoration: none;
-    display: block;
-    margin-top: 5px;
-    color: rgb(130, 130, 130);
-font-family: Euclid Circular B;
-font-size: 16px;
-font-weight: 400;
+  .stars img{
+    width: 74px;
+    height: 15px;
+  }
+  
+  .product-bottom button{
+    width: 220px;
+    height: 63px;
+    border-radius: 7px;
+    
+    box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(149, 109, 132);
+    color: rgb(255, 255, 255);
+    font-family: Museo Sans Cyrl;
+    font-size: 16px;
+font-weight: 700;
 line-height: 18px;
 letter-spacing: 0%;
 text-align: center;
-text-decoration-line: underline;
+}
 
-  }
+.product-bottom p{
+  width: 117px;
+  height: 18px;
+  color: rgb(130, 130, 130);
+  text-align: left;
+}
 
+.order-button {
+  width: 150px;
+  height: 60px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  font-family: Museo Sans Cyrl;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  background: rgb(149, 109, 132);
+}
 
-
-
-
+.quick-order {
+  text-decoration: none;
+  display: block;
+  margin-top: 5px;
+  color: rgb(130, 130, 130);
+  font-family: Euclid Circular B;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration-line: underline;
   
-  .quick-order:hover {
-    text-decoration: underline;
-  }
+}
+.quick-order:hover {
+  text-decoration: underline;
+}
   .section9{
     width: 1420px;
   margin: 0 auto;
-  }
-  .section9 img {
-    width: 100%;
-    height: 508px;
-  }
-  .section8 {
+}
+.section9 img {
+  width: 100%;
+  height: 508px;
+}
+.section8 {
     display: flex;
     width: 1420px;
     justify-content: space-between;
@@ -379,4 +302,76 @@ text-decoration-line: underline;
     width: 100%;
     height: 100%;
   }
-
+  
+  
+  .footer {
+      width: 2450.53px;
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      margin: 0 auto;
+      font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+  
+  .footer-section {
+      flex: 1;     
+      min-width: 200px;
+      margin: 10px;
+  }
+  
+  .footer-logo {
+      width: 100px;
+  }
+  
+  .footer h4 {
+      margin-bottom: 10px;
+  }
+  
+  .footer-list {
+      list-style: none;
+      padding: 0;
+  }
+  
+  .footer-list li {
+      margin-bottom: 5px;
+  }
+  
+  .footer-list a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s;
+  }
+  
+  .footer-list a:hover {
+      color: #ff4081;
+  }
+  .payment-icons {
+      text-align: end;
+      margin-top: -60px;
+      margin-right: 500px;
+  }
+  
+  .payment-icons img {
+      width: 50px;
+      height: 30px;
+      margin-right: 10px;
+  }
+  .payment-icons p{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: -900px;
+      margin-top: 50px;
+  }
+  .email {
+      margin-left: 450px;
+      margin-top: 20px;
+  }
